@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuSS BuZZ</title>
+    <link rel="stylesheet" href="./design .css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="busClass">Normal</div>
+            <div class="busNumber">570s</div>
+        </div>
+        <div class="busStops">
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Kelambakkam
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">30</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Kelambakkam</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease">−</button>
+<input type="number" class="Inputquantity quantity-input" value="1" min="1">
+<button class="quantity-btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">30</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        AP Super
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">30</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">AP Super</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">30</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Chettinad
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">27</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Chettinad</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">27</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Hindustan C
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">27</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Hindustan C</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">27</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Padur
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">25</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Padur</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">25</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Akshaya
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">25</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Akshaya</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">25</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Kazhipattur
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">23</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Kazhipattur</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">23</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Adarsh School
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">21</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Adarsh School</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">21</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Muttukadu
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">18</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Muttukadu</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">18</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+            <div class="Stops">
+                <div class="StopDetails">
+                    <div class="StopName">
+                        Navallur
+                    </div>
+                    <div class="Price">
+                        Rs.<span class="price">17</span>
+                    </div>
+                </div>
+                <div class="tickedDetails">
+                    <div class="tickedQuanitiy">
+                        <div class="tickedStop">Akshaya</div>
+                        <div class="Quantity">
+                            <div class="quantity-container">
+                                <button class="quantity-btn decrease " onclick="changeQuantity(-1)">−</button>
+                                <input type="number" class="Inputquantity quantity-input" id="quantity" value="1" min="1">
+                                <button class="quantity-btn increase" onclick="changeQuantity(1)">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="price-container">
+                            <span class="Ttotal">total :</span> 1 x<span class="Qprice">1</span>
+                        </div> 
+                        <div class="total">
+                            Rs.<span class="Totalprice">17</span>
+                        </div>
+                    </div>
+                    <button class="bookBtn">
+                        Book
+                    </button>
+                    <button class="closeBtn">
+                        Close
+                    </button>
+                </div>
+                <button class="OpenBtn closeBtn">
+                    Open
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
